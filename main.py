@@ -145,4 +145,4 @@ async def play_error(ctx, error):
         await ctx.send("Хуй знает, что за ошибка")
 
 
-client.run('TOKEN')
+client.run('TOKEN')  # Следует использовать os lib
